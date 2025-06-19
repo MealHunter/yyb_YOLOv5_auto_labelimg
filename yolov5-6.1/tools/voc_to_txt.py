@@ -121,22 +121,11 @@ if __name__ == "__main__":
     # 需要转换的类别，需要一一对应
     classes1 = ['person']
     # 2、voc格式的xml标签文件路径
-    xml_files1 = 'C:/Users/admin/Desktop/vi/labels'
+    xml_files1 = 'C:/Users/admin/Desktop/2025-3-17/label'
     # 3、转化为yolo格式的txt标签文件存储路径
-    save_txt_files1 = 'C:/Users/admin/Desktop/vi/labels-txt'
+    save_txt_files1 = 'C:/Users/admin/Desktop/2025-3-17/labels'
     convert_annotation(xml_files1, save_txt_files1, classes1)
 
-# # 根据.txt文件名删除没有目标的.txt文件和对应的图片
-#     image_folder = 'D:/YYB/project/yolov5-7.0/yolov5-7.0/datasets/myself/video/YouTube/images'
-#
-#     delect_images(image_folder, save_txt_files1)  # (images,labels)
-#
-# # 按照8：2的比例划分数据集
-#     train_image_dir = 'D:/YYB/project/yolov5-7.0/yolov5-7.0/datasets/myself/video/bilibili/person/images/train'  # 训练集图片存放路径
-#     val_image_dir = 'D:/YYB/project/yolov5-7.0/yolov5-7.0/datasets/myself/video/bilibili/person/images/val'  # 验证集图片存放路径
-#     train_label_dir = 'D:/YYB/project/yolov5-7.0/yolov5-7.0/datasets/myself/video/bilibili/person/labels/train'  # 训练集标签存放路径
-#     val_label_dir = 'D:/YYB/project/yolov5-7.0/yolov5-7.0/datasets/myself/video/bilibili/person/labels/val'  # 验证集标签存放路径
-#     split_images(image_folder, save_txt_files1, train_image_dir, train_label_dir, val_image_dir, val_label_dir)
 
 
 

@@ -3,12 +3,12 @@ import random
 import shutil
 
 # 配置文件夹路径
-image_dir = 'C:/Users/admin/Desktop/company/images'  # 图片文件夹
-label_dir = 'C:/Users/admin/Desktop/company/labels'  # 标签文件夹
-train_image_dir = 'C:/Users/admin/Desktop/company/small/images/train'  # 训练集图片存放路径
-val_image_dir = 'C:/Users/admin/Desktop/company/small/images/val'  # 验证集图片存放路径
-train_label_dir = 'C:/Users/admin/Desktop/company/small/labels/train'  # 训练集标签存放路径
-val_label_dir = 'C:/Users/admin/Desktop/company/small/labels/val'  # 验证集标签存放路径
+image_dir = 'C:/Users/admin/Desktop/person/high/high/images'  # 图片文件夹
+label_dir = 'C:/Users/admin/Desktop/person/high/high/labels'  # 标签文件夹
+train_image_dir = 'C:/Users/admin/Desktop/person/image1/train'  # 训练集图片存放路径
+val_image_dir = 'C:/Users/admin/Desktop/person/image1/val'  # 验证集图片存放路径
+train_label_dir = 'C:/Users/admin/Desktop/person/label/train'  # 训练集标签存放路径
+val_label_dir = 'C:/Users/admin/Desktop/person/label/val'  # 验证集标签存放路径
 
 # 创建训练集和验证集文件夹
 os.makedirs(train_image_dir, exist_ok=True)

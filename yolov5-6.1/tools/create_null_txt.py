@@ -1,8 +1,9 @@
+# 创建空白的txt文件
 import os
 
 # 设置文件夹路径
-folder_path = "C:/Users/admin/Desktop/vi/images"  # 替换为你的文件夹路径
-txt_path = "C:/Users/admin/Desktop/vi/labels-txt"
+folder_path = "C:/Users/admin/Desktop/face/WIDER_train/WIDER_train/images"  # 替换为你的文件夹路径
+txt_path = "C:/Users/admin/Desktop/face/WIDER_train/WIDER_train/labels"
 
 # 支持的图片扩展名
 image_extensions = {".jpg", ".jpeg", ".png", ".bmp", ".gif", ".tiff"}

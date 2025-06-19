@@ -2,7 +2,7 @@ import os
 import shutil
 
 # 设置原始的 train 文件夹路径
-train_dir = 'D:/YYB/project/yolov5-7.0/yolov5-7.0/datasets/myself/wider_attribute_image/Image/test'  # 根据你的实际路径调整
+train_dir = 'C:/Users/admin/Desktop/face/WIDER_train/WIDER_train/images'  # 根据你的实际路径调整
 
 # 遍历 train 文件夹中的所有子文件夹
 for root, dirs, files in os.walk(train_dir):

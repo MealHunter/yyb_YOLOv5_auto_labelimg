@@ -12,8 +12,8 @@ def find_txt_files(directory):
 
 
 # 示例使用
-directory_to_search = 'D:/YYB/project/yolov5-7.0/yolov5-7.0/datasets/COCO2017/COCO2017/COCO2017/label/val-original'  # 替换为你要遍历的目录路径
-output_file_path = 'D:/YYB/project/yolov5-7.0/yolov5-7.0/datasets/COCO2017/COCO2017/COCO2017/label/val'  # 修改后文件存放路径
+directory_to_search = 'C:/Users/admin/Desktop/2025-3-17/People Detection -General-.v4-v1-fast_model-aug3x.yolov5pytorch/labels'  # 替换为你要遍历的目录路径
+output_file_path = 'C:/Users/admin/Desktop/2025-3-17/People Detection -General-.v4-v1-fast_model-aug3x.yolov5pytorch/label'  # 修改后文件存放路径
 txt_files = find_txt_files(directory_to_search)
 for txt_file in txt_files:
     print(txt_file)
@@ -37,16 +37,16 @@ print('处理完成')
 
 # # 统计数据集当中有人的图片数量
 # import os
-
+#
 # def count_files_with_first_number_14(folder_path):
 #     count = 0  # 用于统计符合条件的.txt文件数量
-
+#
 #     # 遍历文件夹中的所有文件
 #     for filename in os.listdir(folder_path):
 #         # 只处理 .txt 文件
 #         if filename.endswith(".txt"):
 #             file_path = os.path.join(folder_path, filename)
-
+#
 #             try:
 #                 with open(file_path, 'r') as file:
 #                     # 遍历文件中的每一行
@@ -58,11 +58,11 @@ print('处理完成')
 #                             break  # 如果找到了符合条件的行，则跳过当前文件的其他行
 #             except Exception as e:
 #                 print(f"无法读取文件 {filename}: {e}")
-
+#
 #     return count
-
+#
 # # 使用方法
-# folder_path = "D:/YYB/project/yolov5-7.0/yolov5-7.0/datasets/COCO2017/COCO2017/label/train"  # 替换为你实际的文件夹路径
+# folder_path = "C:/Users/admin/Desktop/2025-3-17/People Detection -General-.v4-v1-fast_model-aug3x.yolov5pytorch/labels"  # 替换为你实际的文件夹路径
 # result = count_files_with_first_number_14(folder_path)
 # print(f"符合条件的.txt文件数量: {result}")
 
