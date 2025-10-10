@@ -2,8 +2,8 @@
 import os
 
 # 设置文件夹路径
-folder_path = "C:/Users/admin/Desktop/face/WIDER_train/WIDER_train/images"  # 替换为你的文件夹路径
-txt_path = "C:/Users/admin/Desktop/face/WIDER_train/WIDER_train/labels"
+folder_path = "C:/Users/admin/Desktop/2025-3-17/6_27/6_27/images"  # 替换为你的文件夹路径
+txt_path = "C:/Users/admin/Desktop/2025-3-17/6_27/6_27/labels"
 
 # 支持的图片扩展名
 image_extensions = {".jpg", ".jpeg", ".png", ".bmp", ".gif", ".tiff"}

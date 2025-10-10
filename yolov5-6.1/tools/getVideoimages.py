@@ -38,7 +38,7 @@ def extract_frames(video_path, output_folder, frame_interval=23, blur_threshold=
                 continue
 
             # 保存清晰帧
-            frame_filename = os.path.join(output_folder, f"company_{frame_index:05d}.png")
+            frame_filename = os.path.join(output_folder, f"company_{frame_index:05d}.jpg")
             cv2.imwrite(frame_filename, frame)
             print(f"保存帧: {frame_filename}")
             frame_index += 1
@@ -100,7 +100,7 @@ extract_frames(video_path, output_folder)
 
 #         # 如果差异大于阈值，则保存当前帧
 #         if diff > diff_threshold:
-#             frame_filename = os.path.join(output_folder, f"frame_{frame_index:04d}.png")
+#             frame_filename = os.path.join(output_folder, f"frame_{frame_index:04d}.jpg")
 #             cv2.imwrite(frame_filename, frame)
 #             print(f"保存帧: {frame_filename}")
 #             frame_index += 1
