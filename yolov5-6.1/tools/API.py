@@ -1,22 +1,3 @@
-<<<<<<< HEAD
-from fastapi import FastAPI
-
-
-app = FastAPI() 
-
-
-@app.post("/getFaceFeature")
-async def get_face_feature(image: str):
-    
-    return {"msg": "ok"}
-
-
-
-if __name__ == "__main__":
-    import uvicorn
-    print("运行成功")
-    uvicorn.run(app, host = "0.0.0.0", port = 9001)
-=======
 from fastapi import FastAPI, HTTPException, Query
 import cv2
 import insightface
@@ -143,4 +124,3 @@ if __name__ == "__main__":
     print("运行成功")
     uvicorn.run(app, host = "0.0.0.0", port = 9001)
  
->>>>>>> 23d8831 (增加一个人脸平台部署的文件API.py，和一个计算清晰度的文件qingxidu.py)
