@@ -20,10 +20,10 @@ face_app.prepare(ctx_id=-1)  # ctx_id=-1 for CPU, 0 for GPU
 # =========================
 def get_db_connection():
     return pymysql.connect(
-        host="192.168.1.114",
-        user="bi-read",
-        password="5!tVwfZzqwSU^uWX",
-        database="pms",
+        host="192.168.***",
+        user="***",
+        password="*****",
+        database="***",
         charset="utf8",
         cursorclass=pymysql.cursors.DictCursor
     )
